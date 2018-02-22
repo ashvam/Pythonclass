@@ -1,1 +1,11 @@
-Hey Ashok
+# How to print number of  decibels of Pi based on input number
+
+x = int( input("enter num of digits"))
+print (x)
+a = 22/7
+print (a)
+print ("3.", end = '')
+for z in range(1,x+1):
+    y = 0
+    y = int( a * 10**z)
+    print ((y)%10, end = '')
