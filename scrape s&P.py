@@ -19,7 +19,7 @@ csv.write(symbol)
 csv.write(p.get_text())
 csv.close()
 
-#
+#1
 #with open('/Users/****/Desktop/stocklists.csv', 'wb') as file:
  #   for line in text
 #print (soup.prettify())
